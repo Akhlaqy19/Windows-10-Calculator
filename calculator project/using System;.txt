@@ -1,0 +1,814 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Globalization;
+using System.IO;
+namespace calculator_project
+{
+    public partial class programmer : Form
+    {
+        public programmer()
+        {
+            InitializeComponent();
+            this.KeyPreview = true;
+            PnlBitWise.SendToBack();
+            string txtFile = File.ReadAllText(@"C:\Users\MSI\Documents\calculator\calculator project\calculator project\HistoryProgram.txt");
+            BoxDisplayHistory.Text = txtFile;
+        }
+        string history = "";
+        double number1, number2, number3;
+        // double result = 0 ;
+        double resultD = 0;
+        double resultH = 0;
+        double resultO = 0;
+        double resultB = 0;
+        int ResultAnd = 0;
+        int ResultOr = 0;
+        int ResultNot = 0;
+        int ResultXOR = 0;
+        int ResultNAND = 0;
+        int ResultNOR = 0;
+        string opt = "";
+        bool enter_value = false;
+        int x = 0, y = 0;
+        decimal NumBit = 0, NumOct = 0, NumHex = 0, NumDec = 0;
+        string binary = "", octal = "", Deci = "", hexadecimal = "";
+        Int64 numHEX = 0;
+        int Display = 0;
+        string divide = "";
+        decimal floorH = 0, floorD = 0, floorO = 0, floorB = 0;
+        int count = 0;
+        int Count = 0;
+        void CalcDeci()
+        {
+            if(display.Text != "")
+            {
+
+            NumDec = Convert.ToDecimal(display.Text);
+            floorD = Math.Floor(NumDec);
+            Deci = Convert.ToString(floorD);
+            lblDEC.Text = "DEC      " + Deci;
+            display.Text = Deci;
+
+            NumBit = Convert.ToDecimal(display.Text);
+            floorB = Math.Floor(NumBit);
+            binary = Convert.ToString(Convert.ToInt64(floorB), 2);
+            lblBIN.Text = "BIN      " + binary;
+
+            NumOct = Convert.ToDecimal(display.Text);
+            floorO = Math.Floor(NumOct);
+            octal = Convert.ToString(Convert.ToInt64(floorO), 8);
+            lblOCT.Text = "OCT      " + octal;
+
+            NumHex = Convert.ToDecimal(display.Text);
+            floorH = Math.Floor(NumHex);
+            hexadecimal = Convert.ToString(Convert.ToInt64(floorH), 16);
+
+            hexadecimal = hexadecimal.ToUpper();
+            lblHEX.Text = "HEX      " + hexadecimal;
+          
+            }
+            else
+            {
+                lblBIN.Text = "BIN     0";
+                lblOCT.Text = "OCT     0";
+                lblDEC.Text = "DEC     0";
+                lblHEX.Text = "HEX     0";
+            }
+        }
+        void CalcHex()
+        {
+            string hex = display.Text;
+            lblHEX.Text = "HEX      " + hex;
+
+            numHEX = Convert.ToInt64(display.Text, 16);
+            lblDEC.Text = "DEC      " + numHEX.ToString();
+
+             binary = Convert.ToString(numHEX, 2);
+             lblBIN.Text = "BIN      " + binary;
+
+             octal = Convert.ToString(numHEX, 8);
+             lblOCT.Text = "OCT      " + octal;
+
+        }
+        void CalcOctal()
+        {
+            if(display.Text != "")
+            {
+
+            NumOct = Convert.ToDecimal(display.Text);
+            floorO = Math.Floor(NumOct);
+            octal = Convert.ToString(floorO);
+            lblOCT.Text = "OCT      " + octal;
+            display.Text = octal;
+
+            NumBit = Convert.ToDecimal(display.Text);
+            floorB = Math.Floor(NumBit);
+            binary = Convert.ToString(Convert.ToInt64(floorB), 2);
+            lblBIN.Text = "BIN      " + binary;
+
+            NumDec = Convert.ToDecimal(display.Text);
+            floorD = Math.Floor(NumDec);
+            Deci = Convert.ToString(Convert.ToInt64(floorD), 10);
+            lblDEC.Text = "DEC      " + Deci;
+
+            NumHex = Convert.ToDecimal(display.Text);
+            floorH = Math.Floor(NumHex);
+            hexadecimal = Convert.ToString(Convert.ToInt64(floorH), 16);
+            hexadecimal = hexadecimal.ToUpper();
+            lblHEX.Text = "HEX      " + hexadecimal;
+            }
+            else
+            {
+                lblBIN.Text = "BIN     0";
+                lblOCT.Text = "OCT     0";
+                lblDEC.Text = "DEC     0";
+                lblHEX.Text = "HEX     0";
+            }
+        }
+        void CalcBinary()
+        {
+
+        }
+      
+        private void lblHEX_Click(object sender, EventArgs e)
+        {
+            x = 16;
+
+            display.Text = hexadecimal;
+
+            foreach(Control b in this.Controls)
+            {
+                if(b is Button && b != btnPoint)
+                {
+                    b.Enabled = true;
+                }
+            }
+
+            if (this.BackColor == Color.White)
+            {
+
+                btnA.ForeColor = Color.Black;
+                btnB.ForeColor = Color.Black;
+                btnC.ForeColor = Color.Black;
+                btnD.ForeColor = Color.Black;
+                btnE.ForeColor = Color.Black;
+                btnF.ForeColor = Color.Black;
+                btn0.ForeColor = Color.Black;
+                Btn1.ForeColor = Color.Black;
+                Btn2.ForeColor = Color.Black;
+                Btn3.ForeColor = Color.Black;
+                Btn4.ForeColor = Color.Black;
+                Btn5.ForeColor = Color.Black;
+                Btn6.ForeColor = Color.Black;
+                Btn7.ForeColor = Color.Black;
+                Btn8.ForeColor = Color.Black;
+                Btn9.ForeColor = Color.Black;
+            }
+            else if(this.BackColor == Color.Black)
+            {
+
+                btnA.ForeColor = Color.White;
+                btnB.ForeColor = Color.White;
+                btnC.ForeColor = Color.White;
+                btnD.ForeColor = Color.White;
+                btnE.ForeColor = Color.White;
+                btnF.ForeColor = Color.White;
+                btn0.ForeColor = Color.White;
+                Btn1.ForeColor = Color.White;
+                Btn2.ForeColor = Color.White;
+                Btn3.ForeColor = Color.White;
+                Btn4.ForeColor = Color.White;
+                Btn5.ForeColor = Color.White;
+                Btn6.ForeColor = Color.White;
+                Btn7.ForeColor = Color.White;
+                Btn8.ForeColor = Color.White;
+                Btn9.ForeColor = Color.White;
+            }
+        }
+
+        private void lblDEC_Click(object sender, EventArgs e)
+        {
+            x = 10;
+       
+
+            btnA.Enabled = false;
+            btnB.Enabled = false;
+            btnC.Enabled = false;
+            btnD.Enabled = false;
+            btnE.Enabled = false;
+            btnF.Enabled = false;
+
+            btn0.Enabled = true;
+            Btn1.Enabled = true;
+            Btn2.Enabled = true;
+            Btn3.Enabled = true;
+            Btn4.Enabled = true;
+            Btn5.Enabled = true;
+            Btn6.Enabled = true;
+            Btn7.Enabled = true;
+            Btn8.Enabled = true;
+            Btn9.Enabled = true;
+
+            if (this.BackColor == Color.White)
+            {
+                
+            btnA.ForeColor = Color.DarkGray;
+            btnB.ForeColor = Color.DarkGray;
+            btnC.ForeColor = Color.DarkGray;
+            btnD.ForeColor = Color.DarkGray;
+            btnE.ForeColor = Color.DarkGray;
+            btnF.ForeColor = Color.DarkGray;
+                btn0.ForeColor = Color.Black;
+                Btn1.ForeColor = Color.Black;
+                Btn2.ForeColor = Color.Black;
+                Btn3.ForeColor = Color.Black;
+                Btn4.ForeColor = Color.Black;
+                Btn5.ForeColor = Color.Black;
+                Btn6.ForeColor = Color.Black;
+                Btn7.ForeColor = Color.Black;
+                Btn8.ForeColor = Color.Black;
+                Btn9.ForeColor = Color.Black;
+            }
+            else if (this.BackColor == Color.Black)
+            {
+
+                btnA.ForeColor = Color.WhiteSmoke;
+                btnB.ForeColor = Color.WhiteSmoke;
+                btnC.ForeColor = Color.WhiteSmoke;
+                btnD.ForeColor = Color.WhiteSmoke;
+                btnE.ForeColor = Color.WhiteSmoke;
+                btnF.ForeColor = Color.WhiteSmoke;
+
+                btn0.ForeColor = Color.White;
+                Btn1.ForeColor = Color.White;
+                Btn2.ForeColor = Color.White;
+                Btn3.ForeColor = Color.White;
+                Btn4.ForeColor = Color.White;
+                Btn5.ForeColor = Color.White;
+                Btn6.ForeColor = Color.White;
+                Btn7.ForeColor = Color.White;
+                Btn8.ForeColor = Color.White;
+                Btn9.ForeColor = Color.White;        
+           }
+        }
+
+        private void lblOCT_Click(object sender, EventArgs e)
+        {
+            x = 8;
+            display.Text = octal;
+
+
+            btnA.Enabled = false;
+            btnB.Enabled = false;
+            btnC.Enabled = false;
+            btnD.Enabled = false;
+            btnE.Enabled = false;
+            btnF.Enabled = false;
+            btn0.Enabled = true;
+            Btn1.Enabled = true;
+            Btn2.Enabled = true;
+            Btn3.Enabled = true;
+            Btn4.Enabled = true;
+            Btn5.Enabled = true;
+            Btn6.Enabled = true;
+            Btn7.Enabled = true;
+
+            Btn8.Enabled = false;
+            Btn9.Enabled = false;
+
+            if (this.BackColor == Color.White)
+            {
+                btnA.ForeColor = Color.DarkGray;
+                btnB.ForeColor = Color.DarkGray;
+                btnC.ForeColor = Color.DarkGray;
+                btnD.ForeColor = Color.DarkGray;
+                btnE.ForeColor = Color.DarkGray;
+                btnF.ForeColor = Color.DarkGray;
+                Btn8.ForeColor = Color.DarkGray;
+                Btn9.ForeColor = Color.DarkGray;
+
+                btn0.ForeColor = Color.Black;
+                Btn1.ForeColor = Color.Black;
+                Btn2.ForeColor = Color.Black;
+                Btn3.ForeColor = Color.Black;
+                Btn4.ForeColor = Color.Black;
+                Btn5.ForeColor = Color.Black;
+                Btn6.ForeColor = Color.Black;
+                Btn7.ForeColor = Color.Black;
+            }
+            else if (this.BackColor == Color.Black)
+            {
+                btnA.ForeColor = Color.LightGray;
+                btnB.ForeColor = Color.LightGray;
+                btnC.ForeColor = Color.LightGray;
+                btnD.ForeColor = Color.LightGray;
+                btnE.ForeColor = Color.LightGray;
+                btnF.ForeColor = Color.LightGray;
+                Btn8.ForeColor = Color.LightGray;
+                Btn9.ForeColor = Color.LightGray;
+
+                btn0.ForeColor = Color.White;
+                Btn1.ForeColor = Color.White;
+                Btn2.ForeColor = Color.White;
+                Btn3.ForeColor = Color.White;
+                Btn4.ForeColor = Color.White;
+                Btn5.ForeColor = Color.White;
+                Btn6.ForeColor = Color.White;
+                Btn7.ForeColor = Color.White;
+     
+         
+            }
+        }
+
+        private void lblBIN_Click(object sender, EventArgs e)
+        {
+            x = 2;
+            display.Text = binary;
+
+            btnA.Enabled = false;
+            btnB.Enabled = false;
+            btnC.Enabled = false;
+            btnD.Enabled = false;
+            btnE.Enabled = false;
+            btnF.Enabled = false;
+            
+            btn0.Enabled = true;
+            Btn1.Enabled = true;
+
+            Btn2.Enabled = false;
+            Btn3.Enabled = false; 
+            Btn4.Enabled = false;
+            Btn5.Enabled = false;
+            Btn6.Enabled = false;
+            Btn7.Enabled = false;
+            Btn8.Enabled = false;
+            Btn9.Enabled = false;
+
+            if (this.BackColor == Color.White)
+            {
+                btnA.ForeColor = Color.DarkGray;
+                btnB.ForeColor = Color.DarkGray;
+                btnC.ForeColor = Color.DarkGray;
+                btnD.ForeColor = Color.DarkGray;
+                btnE.ForeColor = Color.DarkGray;
+                btnF.ForeColor = Color.DarkGray;
+                Btn2.ForeColor = Color.DarkGray;
+                Btn3.ForeColor = Color.DarkGray;
+                Btn4.ForeColor = Color.DarkGray;
+                Btn5.ForeColor = Color.DarkGray;
+                Btn6.ForeColor = Color.DarkGray;
+                Btn7.ForeColor = Color.DarkGray;
+                Btn8.ForeColor = Color.DarkGray;
+                Btn9.ForeColor = Color.DarkGray;
+
+                Btn1.ForeColor = Color.Black;
+                btn0.ForeColor = Color.Black;
+            }
+            else if (this.BackColor == Color.Black)
+            {
+
+
+                btnA.ForeColor = Color.LightGray;
+                btnB.ForeColor = Color.LightGray;
+                btnC.ForeColor = Color.LightGray;
+                btnD.ForeColor = Color.LightGray;
+                btnE.ForeColor = Color.LightGray;
+                btnF.ForeColor = Color.LightGray;
+                Btn2.ForeColor = Color.LightGray;
+                Btn3.ForeColor = Color.LightGray;
+                Btn4.ForeColor = Color.LightGray;
+                Btn5.ForeColor = Color.LightGray;
+                Btn6.ForeColor = Color.LightGray;
+                Btn7.ForeColor = Color.LightGray;
+                Btn8.ForeColor = Color.LightGray;
+                Btn9.ForeColor = Color.LightGray;
+
+                Btn1.ForeColor = Color.White;
+                btn0.ForeColor = Color.White;
+            }
+
+        }
+
+        private void programmer_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.NumPad1 || e.KeyCode == Keys.D1)
+            {
+                Btn1.PerformClick();
+            }
+            if (e.KeyCode == Keys.NumPad2 || e.KeyCode == Keys.D2)
+            {
+                Btn2.PerformClick();
+            }
+            if (e.KeyCode == Keys.NumPad3 || e.KeyCode == Keys.D3)
+            {
+                Btn3.PerformClick();
+            }
+            if (e.KeyCode == Keys.NumPad4 || e.KeyCode == Keys.D4)
+            {
+                Btn4.PerformClick();
+            }
+            if (e.KeyCode == Keys.NumPad5 || e.KeyCode == Keys.D5)
+            {
+                Btn5.PerformClick();
+            }
+            if (e.KeyCode == Keys.NumPad6 || e.KeyCode == Keys.D6)
+            {
+                Btn6.PerformClick();
+            }
+            if (e.KeyCode == Keys.NumPad7 || e.KeyCode == Keys.D7)
+            {
+                Btn7.PerformClick();
+            }
+            if (e.KeyCode == Keys.NumPad8 || e.KeyCode == Keys.D8)
+            {
+                Btn8.PerformClick();
+            }
+            if (e.KeyCode == Keys.NumPad9 || e.KeyCode == Keys.D9)
+            {
+                Btn9.PerformClick();
+            }
+            if (e.KeyCode == Keys.Back)
+            {
+                display.Text = display.Text.Remove(display.Text.Length - 1);
+
+                if (display.Text == "")
+                {
+                    display.Text = "0";
+                }
+            }
+            if (e.KeyCode == Keys.Add || e.KeyCode == Keys.Oemplus)
+            {
+                BtnAdd.PerformClick();
+            }
+            if (e.KeyCode == Keys.Subtract || e.KeyCode == Keys.OemMinus)
+            {
+                BtnSub.PerformClick();
+            }
+            if (e.KeyCode == Keys.Multiply)
+            {
+                BtnMultyply.PerformClick();
+            }
+            if (e.KeyCode == Keys.Divide)
+            {
+                BtnDivision.PerformClick();
+            }
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnEquals.PerformClick();
+            }
+        }
+
+        private void btnEquals_Click(object sender, EventArgs e)
+        {
+            if(x == 10)
+            {
+            }
+        
+        }
+
+
+        private void BtnOpt_Click(object sender, EventArgs e)
+        {
+            Button btnOpt = (Button)sender;
+            enter_value = true;
+            opt = btnOpt.Text;
+            count++;
+            if (Count > 0)
+            {
+                if (count == 1)
+                {
+                    number1 = Convert.ToDouble(display.Text);
+                    lblShowOpt.Text += number1 + opt;
+                    display.Text = number1 + "";
+                }
+
+                else if (count == 2)
+                {
+                    number2 = Convert.ToDouble(display.Text);
+                    switch (opt)
+                    {
+                        case "+":
+                            number1 = number1 + number2;
+                            break;
+                        case "-":
+                            number1 = number1 - number2;
+                            break;
+                        case "×":
+                            number1 = number1 * number2;
+                            break;
+                        case "÷":
+                            number1 = number1 / number2;
+                            break;
+                    }
+                    lblShowOpt.Text += display.Text + opt;
+                    ///   display.Text = "";
+                    display.Text = number1 + "";
+                }
+                else if (count == 3)
+                {
+                    number2 = Convert.ToDouble(display.Text);
+
+                    switch (opt)
+                    {
+                        case "+":
+                            number3 = number1 + number2;
+                            break;
+                        case "-":
+                            number3 = number1 - number2;
+                            break;
+                        case "×":
+                            number3 = number1 * number2;
+                            break;
+                        case "÷":
+                            number3 = number1 / number2;
+                            break;
+                    }
+
+                    lblShowOpt.Text += display.Text + opt;
+                    //   display.Text = "";
+                    display.Text = number3 + "";
+                }
+            }
+          
+            else
+            {
+
+            }
+            MessageBox.Show(number1 + "    " + number2 + "    " + number3);
+        }
+
+        private void BtnNumers_Click(object sender, EventArgs e)
+        {
+            Count++;
+            Button btn = (Button)sender;
+
+            //if (Count == 1 || enter_value)
+            //{
+            //    display.Text = "";
+            //    display.Text += btn.Text;
+            //    enter_value = false;
+            //}
+            //display.Text += Convert.ToDouble(btn.Text);
+            if(Count == 1)
+            {
+            display.Text += Convert.ToDouble(btn.Text);
+            }
+            else
+            {        
+                display.Text += Convert.ToDouble(btn.Text);
+            }
+
+            if (x == 10)
+            {
+                CalcDeci();
+            }
+            else if (x == 8)
+            {
+                CalcOctal();
+            }
+
+            if (display.Text != "0")
+            {
+                BtnClear.Text = "CE";
+            }
+        }
+
+        private void BtnBackspace_Click(object sender, EventArgs e)
+        {
+            display.Text = display.Text.Remove(display.Text.Length - 1);
+            if(x == 10)
+            {
+                CalcDeci();
+            }
+            else if (x == 8)
+            {
+                CalcOctal();
+            }
+            if (display.Text == "")
+            {
+                display.Text = "0";
+            }
+        }
+        private void BtnClear_Click(object sender, EventArgs e)
+        {
+            display.Text = "0";
+
+            if (BtnClear.Text == "CE")
+            {
+                display.Text = "0";
+            }
+            else
+            {
+                display.Text = "0";
+                lblShowOpt.Text = "";
+            }
+
+            number1 = 0;
+            number2 = 0;
+            resultD = 0;
+            resultH = 0;
+            resultO = 0;
+            resultB = 0;
+
+            lblHEX.Text = "HEX     0";
+            lblDEC.Text = "DEC     0";
+            lblOCT.Text = "OCT     0";
+            lblBIN.Text = "BIN     0";
+            if(display.Text == "0")
+            {
+                BtnClear.Text = "C";
+            }
+            else
+            {
+                BtnClear.Text = "CE";
+            }
+        }
+
+        private void btnSign_Click(object sender, EventArgs e)
+        {
+            if (display.Text != "")
+            {
+                display.Text = (Convert.ToDecimal(display.Text) * -1) + "";
+            }
+        }
+
+        private void BtnNOT_Click(object sender, EventArgs e)
+        {
+            ResultNot = Convert.ToInt32(display.Text);
+            display.Text = (~ResultNot) + "";
+            CalcDeci();
+            PnlBitWise.SendToBack();
+        }
+
+        private void BtnNumHex_Click(object sender, EventArgs e)
+        {
+            Button BtnHex = (Button)sender;
+            if (display.Text == "0" || enter_value)
+            {
+                display.Text = "";
+                enter_value = false;
+            }
+            display.Text += BtnHex.Text;
+            //CalcDeci();
+            CalcHex();
+        }
+
+        private void lblBIN_MouseLeave(object sender, EventArgs e)
+        {
+            lblBIN.BackColor = Color.Transparent;
+            Lbl4.Visible = false;
+        }
+
+        private void lblOCT_MouseLeave(object sender, EventArgs e)
+        {
+            lblOCT.BackColor = Color.Transparent;
+            Lbl3.Visible = false;
+        }
+
+        private void lblDEC_MouseLeave(object sender, EventArgs e)
+        {
+            lblDEC.BackColor = Color.Transparent;
+            Lbl2.Visible = false;
+        }
+
+        private void lblHEX_MouseLeave(object sender, EventArgs e)
+        {
+            lblHEX.BackColor = Color.Transparent;
+            Lbl1.Visible = false;
+        }
+
+        private void lblHEX_MouseHover(object sender, EventArgs e)
+        {
+            lblHEX.BackColor = Color.DimGray;
+            Lbl1.Visible = true;
+        }
+
+        private void lblDEC_MouseHover(object sender, EventArgs e)
+        {
+            lblDEC.BackColor = Color.DimGray;
+            Lbl2.Visible = true;
+        }
+
+        private void lblOCT_MouseHover(object sender, EventArgs e)
+        {
+            lblOCT.BackColor = Color.DimGray;
+            Lbl3.Visible = true;
+        }
+
+        private void lblBIN_MouseHover(object sender, EventArgs e)
+        {
+            lblBIN.BackColor = Color.DimGray;
+            Lbl4.Visible = true;
+        }
+
+        private void BtnHistory_Click(object sender, EventArgs e)
+        {
+            if (PnlHistory.Height == 10)
+            {
+                PnlHistory.Height = 280;
+                PnlHistory.BringToFront();
+            }
+            else
+            {
+                PnlHistory.Height = 10;
+            }
+            
+        }
+
+        private void BtnClearHistory_Click(object sender, EventArgs e)
+        {
+            BoxDisplayHistory.Clear();
+            if(BoxDisplayHistory.Text == string.Empty)
+            {
+                BoxDisplayHistory.Text = "There's no history yet!";
+            }
+        }
+
+        private void BtnExit_Click(object sender, EventArgs e)
+        {
+            File.Delete(@"C:\Users\MSI\Documents\calculator\calculator project\calculator project\HistoryProgram.txt");
+            File.AppendAllText(@"C:\Users\MSI\Documents\calculator\calculator project\calculator project\HistoryProgram.txt", BoxDisplayHistory.Text + "\n");
+            this.Close();
+        }
+
+        private void BITwise_Click(object sender, EventArgs e)
+        {
+            PnlBitWise.Visible = true;
+            PnlBitWise.BringToFront();      
+        }
+
+        private void Drak_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Black;
+            this.ForeColor = Color.White;
+
+            foreach (Control c in this.Controls)
+            {
+                if (c is Label || c is Panel || c is Button)
+                {
+                    c.BackColor = Color.Black;
+                    c.ForeColor = Color.White;
+                }
+            }
+            label1.BackColor = Color.Black;
+            lblShowOpt.BackColor = Color.Black;
+            label1.ForeColor = Color.White;
+            lblShowOpt.ForeColor = Color.WhiteSmoke;
+
+            PnlHistory.BackColor = Color.DimGray;
+            PnlHistory.ForeColor = Color.White;
+            BoxDisplayHistory.BackColor = Color.DimGray;
+            BoxDisplayHistory.ForeColor = Color.White;
+        }
+
+        private void Light_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.White;
+            this.ForeColor = Color.Black;
+
+            foreach (Control c in this.Controls)
+            {
+                if (c is Label || c is Panel || c is Button)
+                {
+                    c.BackColor = Color.WhiteSmoke;
+                    c.ForeColor = Color.Black;
+                }
+            }
+            label1.ForeColor = Color.Black;
+            lblShowOpt.ForeColor = Color.DarkGray;
+            label1.BackColor = Color.WhiteSmoke;
+            lblShowOpt.BackColor = Color.WhiteSmoke;
+
+            PnlHistory.BackColor = Color.WhiteSmoke;
+            PnlHistory.ForeColor = Color.Black;
+            BoxDisplayHistory.BackColor = Color.WhiteSmoke;
+            BoxDisplayHistory.ForeColor = Color.Black;
+        }
+
+        private void btnPercent_Click(object sender, EventArgs e)
+        {
+            if (display.Text != "")
+            {
+            display.Text = (Convert.ToDecimal(display.Text) / 100) + "";
+            }
+        }
+
+    }
+}
+/*      octal = Convert.ToString(Convert.ToInt32(resultD), 8);
+                    resultO = Convert.ToDouble(octal);
+
+                    binary = Convert.ToString(Convert.ToInt32(resultD), 2);
+                    resultB = Convert.ToDouble(binary);
+
+                    hexadecimal = Convert.ToString(Convert.ToInt32(resultD), 16);
+                    resultH = Convert.ToDouble(hexadecimal);
+*/

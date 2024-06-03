@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolboxControlSample", "ToolboxControlSample.csproj", "{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+		Release2005|Any CPU = Release2005|Any CPU
+		Release2005|Mixed Platforms = Release2005|Mixed Platforms
+		Release2005|x86 = Release2005|x86
+		ReleaseTrial|Any CPU = ReleaseTrial|Any CPU
+		ReleaseTrial|Mixed Platforms = ReleaseTrial|Mixed Platforms
+		ReleaseTrial|x86 = ReleaseTrial|x86
+		ReleaseTrial2005|Any CPU = ReleaseTrial2005|Any CPU
+		ReleaseTrial2005|Mixed Platforms = ReleaseTrial2005|Mixed Platforms
+		ReleaseTrial2005|x86 = ReleaseTrial2005|x86
+		ReleaseTrialNoLimit|Any CPU = ReleaseTrialNoLimit|Any CPU
+		ReleaseTrialNoLimit|Mixed Platforms = ReleaseTrialNoLimit|Mixed Platforms
+		ReleaseTrialNoLimit|x86 = ReleaseTrialNoLimit|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.Release|x86.ActiveCfg = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.Release2005|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.Release2005|Any CPU.Build.0 = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.Release2005|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.Release2005|Mixed Platforms.Build.0 = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.Release2005|x86.ActiveCfg = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.ReleaseTrial|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.ReleaseTrial|Any CPU.Build.0 = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.ReleaseTrial|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.ReleaseTrial|Mixed Platforms.Build.0 = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.ReleaseTrial|x86.ActiveCfg = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.ReleaseTrial2005|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.ReleaseTrial2005|Any CPU.Build.0 = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.ReleaseTrial2005|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.ReleaseTrial2005|Mixed Platforms.Build.0 = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.ReleaseTrial2005|x86.ActiveCfg = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.ReleaseTrialNoLimit|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.ReleaseTrialNoLimit|Any CPU.Build.0 = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.ReleaseTrialNoLimit|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.ReleaseTrialNoLimit|Mixed Platforms.Build.0 = Release|Any CPU
+		{BEE316B0-F24C-46E7-BCAD-2A406BD4FE17}.ReleaseTrialNoLimit|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

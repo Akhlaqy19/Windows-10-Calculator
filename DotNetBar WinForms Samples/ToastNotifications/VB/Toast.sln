@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Toast", "Toast.vbproj", "{E633A43E-6F76-4D38-B5E7-5DDDA30EDADB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Release2005|Any CPU = Release2005|Any CPU
+		ReleaseTrial|Any CPU = ReleaseTrial|Any CPU
+		ReleaseTrial2005|Any CPU = ReleaseTrial2005|Any CPU
+		ReleaseTrialNoLimit|Any CPU = ReleaseTrialNoLimit|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E633A43E-6F76-4D38-B5E7-5DDDA30EDADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E633A43E-6F76-4D38-B5E7-5DDDA30EDADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E633A43E-6F76-4D38-B5E7-5DDDA30EDADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E633A43E-6F76-4D38-B5E7-5DDDA30EDADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E633A43E-6F76-4D38-B5E7-5DDDA30EDADB}.Release2005|Any CPU.ActiveCfg = Release|Any CPU
+		{E633A43E-6F76-4D38-B5E7-5DDDA30EDADB}.Release2005|Any CPU.Build.0 = Release|Any CPU
+		{E633A43E-6F76-4D38-B5E7-5DDDA30EDADB}.ReleaseTrial|Any CPU.ActiveCfg = Release|Any CPU
+		{E633A43E-6F76-4D38-B5E7-5DDDA30EDADB}.ReleaseTrial|Any CPU.Build.0 = Release|Any CPU
+		{E633A43E-6F76-4D38-B5E7-5DDDA30EDADB}.ReleaseTrial2005|Any CPU.ActiveCfg = Release|Any CPU
+		{E633A43E-6F76-4D38-B5E7-5DDDA30EDADB}.ReleaseTrial2005|Any CPU.Build.0 = Release|Any CPU
+		{E633A43E-6F76-4D38-B5E7-5DDDA30EDADB}.ReleaseTrialNoLimit|Any CPU.ActiveCfg = Release|Any CPU
+		{E633A43E-6F76-4D38-B5E7-5DDDA30EDADB}.ReleaseTrialNoLimit|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

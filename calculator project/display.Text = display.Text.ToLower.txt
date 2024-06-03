@@ -1,0 +1,16 @@
+   //display.Text = display.Text.ToLower();
+
+   //NumBit = Convert.ToDecimal(display.Text);
+   //floorB = Math.Floor(NumBit);
+   //binary = Convert.ToString(Convert.ToInt64(floorB), 2);
+   //lblBIN.Text = "BIN      " + binary;
+
+   //NumOct = Convert.ToDecimal(display.Text);
+   //floorO = Math.Floor(NumOct);
+   //octal = Convert.ToString(Convert.ToInt64(floorO), 8);
+   //lblOCT.Text = "OCT      " + octal;
+
+   //NumDec = Convert.ToDecimal(display.Text);
+   //floorD = Math.Floor(NumDec);
+   //Deci = Convert.ToString(Convert.ToInt64(floorD), 10);
+   //lblDEC.Text = "DEC      " + Deci;

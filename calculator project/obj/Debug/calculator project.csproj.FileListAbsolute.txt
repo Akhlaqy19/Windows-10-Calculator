@@ -1,0 +1,152 @@
+C:\Users\MSI\Documents\calculator\calculator project\calculator project\bin\Debug\calculator project.exe.config
+C:\Users\MSI\Documents\calculator\calculator project\calculator project\bin\Debug\calculator project.exe
+C:\Users\MSI\Documents\calculator\calculator project\calculator project\bin\Debug\calculator project.pdb
+C:\Users\MSI\Documents\calculator\calculator project\calculator project\obj\Debug\calculator project.csproj.AssemblyReference.cache
+C:\Users\MSI\Documents\calculator\calculator project\calculator project\obj\Debug\calculator_project.Properties.Resources.resources
+C:\Users\MSI\Documents\calculator\calculator project\calculator project\obj\Debug\calculator project.csproj.GenerateResource.cache
+C:\Users\MSI\Documents\calculator\calculator project\calculator project\obj\Debug\calculator project.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Documents\calculator\calculator project\calculator project\obj\Debug\calculator project.exe
+C:\Users\MSI\Documents\calculator\calculator project\calculator project\obj\Debug\calculator project.pdb
+C:\Users\MSI\Documents\calculator\calculator project\calculator project\obj\Debug\calculator_project.Menu.resources
+C:\Users\MSI\Documents\calculator\calculator project\calculator project\obj\Debug\calculator_project.Standard.resources
+C:\Users\MSI\Documents\calculator\calculator project\calculator project\obj\Debug\calculator_project.programmer.resources
+C:\Users\MSI\Documents\calculator\calculator project\calculator project\obj\Debug\calculator_project.setting.resources
+C:\Users\MSI\Documents\calculator\calculator project\calculator project\obj\Debug\calculator_project.Weight.resources
+C:\Users\MSI\Documents\calculator\calculator project\calculator project\obj\Debug\calculator_project.Length.resources
+C:\Users\MSI\Documents\calculator\calculator project\calculator project\obj\Debug\calculator_project.Timer.resources
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\obj\Debug\calculator project.csproj.AssemblyReference.cache
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\obj\Debug\calculator_project.Standard.resources
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\obj\Debug\calculator_project.Length.resources
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\obj\Debug\calculator_project.Menu.resources
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\obj\Debug\calculator_project.programmer.resources
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\obj\Debug\calculator_project.Properties.Resources.resources
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\obj\Debug\calculator_project.setting.resources
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\obj\Debug\calculator_project.Speed.resources
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\obj\Debug\calculator_project.Timer.resources
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\obj\Debug\calculator_project.Weight.resources
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\obj\Debug\calculator project.csproj.GenerateResource.cache
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\obj\Debug\calculator project.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\obj\Debug\calculator project.exe
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\obj\Debug\calculator project.pdb
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\calculator project.exe.config
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\calculator project.exe
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\calculator project.pdb
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\obj\Debug\calculator_project.Volume.resources
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\obj\Debug\calculator_project.Currency.resources
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\Newtonsoft.Json.dll
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\RestSharp.dll
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\System.Buffers.dll
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\System.Memory.dll
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\System.Text.Json.dll
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\System.ValueTuple.dll
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\Newtonsoft.Json.xml
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\RestSharp.xml
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\System.Buffers.xml
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\System.Memory.xml
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\System.Text.Json.xml
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\bin\Debug\System.ValueTuple.xml
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\obj\Debug\calculat.0BCAB414.Up2Date
+C:\Users\MSI\Documents\Calculator10\calculator project\calculator project\obj\Debug\calculator_project.Temperature.resources
+E:\calculator project\calculator project\bin\Debug\calculator project.exe.config
+E:\calculator project\calculator project\bin\Debug\calculator project.exe
+E:\calculator project\calculator project\bin\Debug\calculator project.pdb
+E:\calculator project\calculator project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\calculator project\calculator project\bin\Debug\Newtonsoft.Json.dll
+E:\calculator project\calculator project\bin\Debug\RestSharp.dll
+E:\calculator project\calculator project\bin\Debug\System.Buffers.dll
+E:\calculator project\calculator project\bin\Debug\System.Memory.dll
+E:\calculator project\calculator project\bin\Debug\System.Numerics.Vectors.dll
+E:\calculator project\calculator project\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\calculator project\calculator project\bin\Debug\System.Text.Encodings.Web.dll
+E:\calculator project\calculator project\bin\Debug\System.Text.Json.dll
+E:\calculator project\calculator project\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\calculator project\calculator project\bin\Debug\System.ValueTuple.dll
+E:\calculator project\calculator project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\calculator project\calculator project\bin\Debug\Newtonsoft.Json.xml
+E:\calculator project\calculator project\bin\Debug\RestSharp.xml
+E:\calculator project\calculator project\bin\Debug\System.Buffers.xml
+E:\calculator project\calculator project\bin\Debug\System.Memory.xml
+E:\calculator project\calculator project\bin\Debug\System.Numerics.Vectors.xml
+E:\calculator project\calculator project\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\calculator project\calculator project\bin\Debug\System.Text.Encodings.Web.xml
+E:\calculator project\calculator project\bin\Debug\System.Text.Json.xml
+E:\calculator project\calculator project\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\calculator project\calculator project\bin\Debug\System.ValueTuple.xml
+E:\calculator project\calculator project\obj\Debug\calculator project.csproj.AssemblyReference.cache
+E:\calculator project\calculator project\obj\Debug\calculator project.csproj.SuggestedBindingRedirects.cache
+E:\calculator project\calculator project\obj\Debug\calculator_project.Currency.resources
+E:\calculator project\calculator project\obj\Debug\calculator_project.Standard.resources
+E:\calculator project\calculator project\obj\Debug\calculator_project.Length.resources
+E:\calculator project\calculator project\obj\Debug\calculator_project.Menu.resources
+E:\calculator project\calculator project\obj\Debug\calculator_project.programmer.resources
+E:\calculator project\calculator project\obj\Debug\calculator_project.Properties.Resources.resources
+E:\calculator project\calculator project\obj\Debug\calculator_project.setting.resources
+E:\calculator project\calculator project\obj\Debug\calculator_project.Speed.resources
+E:\calculator project\calculator project\obj\Debug\calculator_project.Temperature.resources
+E:\calculator project\calculator project\obj\Debug\calculator_project.Timer.resources
+E:\calculator project\calculator project\obj\Debug\calculator_project.Volume.resources
+E:\calculator project\calculator project\obj\Debug\calculator_project.Weight.resources
+E:\calculator project\calculator project\obj\Debug\calculator project.csproj.GenerateResource.cache
+E:\calculator project\calculator project\obj\Debug\calculator project.csproj.CoreCompileInputs.cache
+E:\calculator project\calculator project\obj\Debug\calculator project.csproj.CopyComplete
+E:\calculator project\calculator project\obj\Debug\calculator project.exe
+E:\calculator project\calculator project\obj\Debug\calculator project.pdb
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\calculator project.exe.config
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\calculator project.exe
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\calculator project.pdb
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\Newtonsoft.Json.dll
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\RestSharp.dll
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\System.Buffers.dll
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\System.Memory.dll
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\System.Text.Json.dll
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\System.ValueTuple.dll
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\Newtonsoft.Json.xml
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\RestSharp.xml
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\System.Buffers.xml
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\System.Memory.xml
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\System.Text.Json.xml
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\System.ValueTuple.xml
+C:\Users\MSI\Documents\calculator project\calculator project\obj\Debug\calculator project.csproj.AssemblyReference.cache
+C:\Users\MSI\Documents\calculator project\calculator project\obj\Debug\calculator_project.Currency.resources
+C:\Users\MSI\Documents\calculator project\calculator project\obj\Debug\calculator_project.Standard.resources
+C:\Users\MSI\Documents\calculator project\calculator project\obj\Debug\calculator_project.Length.resources
+C:\Users\MSI\Documents\calculator project\calculator project\obj\Debug\calculator_project.programmer.resources
+C:\Users\MSI\Documents\calculator project\calculator project\obj\Debug\calculator_project.Properties.Resources.resources
+C:\Users\MSI\Documents\calculator project\calculator project\obj\Debug\calculator_project.setting.resources
+C:\Users\MSI\Documents\calculator project\calculator project\obj\Debug\calculator_project.Speed.resources
+C:\Users\MSI\Documents\calculator project\calculator project\obj\Debug\calculator_project.Temperature.resources
+C:\Users\MSI\Documents\calculator project\calculator project\obj\Debug\calculator_project.Timer.resources
+C:\Users\MSI\Documents\calculator project\calculator project\obj\Debug\calculator_project.Volume.resources
+C:\Users\MSI\Documents\calculator project\calculator project\obj\Debug\calculator_project.Weight.resources
+C:\Users\MSI\Documents\calculator project\calculator project\obj\Debug\calculator project.csproj.GenerateResource.cache
+C:\Users\MSI\Documents\calculator project\calculator project\obj\Debug\calculator project.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Documents\calculator project\calculator project\obj\Debug\calculat.0BCAB414.Up2Date
+C:\Users\MSI\Documents\calculator project\calculator project\obj\Debug\calculator project.exe
+C:\Users\MSI\Documents\calculator project\calculator project\obj\Debug\calculator project.pdb
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\MetroFramework.Design.dll
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\MetroFramework.dll
+C:\Users\MSI\Documents\calculator project\calculator project\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\MSI\Documents\calculator project\calculator project\obj\Debug\calculator_project.theme1.resources
+C:\Users\MSI\Documents\calculator project\calculator project\obj\Debug\calculator_project.Scientific.resources

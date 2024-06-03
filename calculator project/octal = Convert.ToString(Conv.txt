@@ -1,0 +1,163 @@
+/*      octal = Convert.ToString(Convert.ToInt32(resultD), 8);
+                    resultO = Convert.ToDouble(octal);
+
+                    binary = Convert.ToString(Convert.ToInt32(resultD), 2);
+                    resultB = Convert.ToDouble(binary);
+
+                    hexadecimal = Convert.ToString(Convert.ToInt32(resultD), 16);
+                    resultH = Convert.ToDouble(hexadecimal);
+*/
+
+
+
+ if(x == 10)
+ {
+     Count = 0;
+     count++;
+
+     if (count == 1)
+     {
+         number1 = Convert.ToDouble(display.Text);
+         display.Text = number1 + "";
+         opt1 = btnOpt.Text;
+         lblShowOpt.Text += number1 + opt1;
+     }
+
+     if (count % 3 == 2)
+     {
+         opt2 = btnOpt.Text;
+
+         number2 = Convert.ToDouble(display.Text);
+         lblShowOpt.Text += number2 + opt2;
+
+         switch (opt1)
+         {
+             case "+":
+                 number3 = number1 + number2;
+                 break;
+             case "−":
+                 number3 = number1 - number2;
+                 break;
+             case "×":
+                 number3 = number1 * number2;
+                 break;
+             case "÷":
+                 number3 = number1 / number2;
+                 break;
+             case "AND":
+                 number3 = Convert.ToDouble(Convert.ToInt64(number1) & Convert.ToInt64(number2));
+                 break;
+             case "OR":
+                 number3 = Convert.ToDouble(Convert.ToInt64(number1) | Convert.ToInt64(number2));
+                 break;
+         }
+         number1 = number3;
+         display.Text = number3 + "";
+         opt1 = "";
+
+     }
+     else if (count % 3 == 0 && count != 1)
+     {
+         opt1 = opt2;
+
+         opt2 = btnOpt.Text;
+         number2 = Convert.ToDouble(display.Text);
+         lblShowOpt.Text += number2 + opt2;
+
+         switch (opt1)
+         {
+             case "+":
+                 number3 = number1 + number2;
+                 break;
+             case "−":
+                 number3 = number1 - number2;
+                 break;
+             case "×":
+                 number3 = number1 * number2;
+                 break;
+             case "÷":
+                 number3 = number1 / number2;
+                 break;
+             case "AND":
+                 number3 = Convert.ToDouble(Convert.ToInt64(number1) & Convert.ToInt64(number2));
+                 break;
+             case "OR":
+                 number3 = Convert.ToDouble(Convert.ToInt64(number1) | Convert.ToInt64(number2));
+                 break;
+         }
+         number1 = number3;
+         display.Text = number3 + "";
+         opt1 = "";
+
+     }
+     else if (count % 3 == 2 && count != 2)
+     {
+         opt2 = btnOpt.Text;
+         number2 = Convert.ToDouble(display.Text);
+         lblShowOpt.Text += number2 + opt2;
+
+         switch (opt2)
+         {
+             case "+":
+                 number3 = number1 + number2;
+                 break;
+             case "−":
+                 number3 = number1 - number2;
+                 break;
+             case "×":
+                 number3 = number1 * number2;
+                 break;
+             case "÷":
+                 number3 = number1 / number2;
+                 break;
+             case "AND":
+                 number3 = Convert.ToDouble(Convert.ToInt64(number1) & Convert.ToInt64(number2));
+                 break;
+             case "OR":
+                 number3 = Convert.ToDouble(Convert.ToInt64(number1) | Convert.ToInt64(number2));
+                 break;
+         }
+         number1 = number3;
+         display.Text = number3 + "";
+         // opt2 = "";
+
+     }
+     else if (count % 3 == 1 && count != 1)
+     {
+         opt2 = btnOpt.Text;
+         number2 = Convert.ToDouble(display.Text);
+         lblShowOpt.Text += number2 + opt2;
+
+         switch (opt2)
+         {
+             case "+":
+                 number3 = number1 + number2;
+                 break;
+             case "−":
+                 number3 = number1 - number2;
+                 break;
+             case "×":
+                 number3 = number1 * number2;
+                 break;
+             case "÷":
+                 number3 = number1 / number2;
+                 break;
+             case "AND":
+                 number3 = Convert.ToDouble(Convert.ToInt64(number1) & Convert.ToInt64(number2));
+                 break;
+             case "OR":
+                 number3 = Convert.ToDouble(Convert.ToInt64(number1) | Convert.ToInt64(number2));
+                 break;
+         }
+         number1 = number3;
+         display.Text = number3 + "";
+         // opt2 = "";
+
+     }
+ }
+ else if (x == 16)
+ {
+
+ }
+
+

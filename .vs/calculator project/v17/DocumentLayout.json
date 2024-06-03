@@ -1,0 +1,459 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MSI\\Documents\\calculator project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|c:\\users\\msi\\documents\\calculator project\\calculator project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\scientific.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\scientific.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\scientific.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\scientific.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\programmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\programmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\programmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\programmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\length.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\length.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\speed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\speed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\length.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\length.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\theme1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\theme1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\theme1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\theme1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\temperature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\temperature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\temperature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\temperature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\weight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\weight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\weight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\weight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\volume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\volume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\volume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\volume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\speed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\speed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\wintheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\wintheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\currencyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A948C77-B8F8-4D39-995D-1C32E78A1F22}|calculator project\\calculator project.csproj|solutionrelative:calculator project\\currencyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 127,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 195,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Program.cs",
+              "RelativeDocumentMoniker": "calculator project\\Program.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Program.cs",
+              "RelativeToolTip": "calculator project\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAowBYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:31:37.034Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Form1.cs",
+              "RelativeDocumentMoniker": "calculator project\\Form1.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Form1.cs",
+              "RelativeToolTip": "calculator project\\Form1.cs",
+              "ViewState": "AQIAAJwBAAAAAAAAAAAAALQBAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:13:52.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Scientific.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Scientific.cs",
+              "RelativeDocumentMoniker": "calculator project\\Scientific.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Scientific.cs",
+              "RelativeToolTip": "calculator project\\Scientific.cs",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAAAMEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T19:13:29.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Scientific.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Scientific.cs",
+              "RelativeDocumentMoniker": "calculator project\\Scientific.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Scientific.cs [Design]",
+              "RelativeToolTip": "calculator project\\Scientific.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T19:13:26.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Currency.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Currency.cs",
+              "RelativeDocumentMoniker": "calculator project\\Currency.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Currency.cs",
+              "RelativeToolTip": "calculator project\\Currency.cs",
+              "ViewState": "AQIAAE4BAAAAAAAAAAAAAG0BAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:14:24.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Speed.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Speed.cs",
+              "RelativeDocumentMoniker": "calculator project\\Speed.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Speed.cs",
+              "RelativeToolTip": "calculator project\\Speed.cs",
+              "ViewState": "AQIAAKUBAAAAAAAAAAAAALABAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:15:04.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Form1.cs",
+              "RelativeDocumentMoniker": "calculator project\\Form1.cs",
+              "ToolTip": "F:\\calculator project\\calculator project\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:13:48.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Currency.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Currency.cs",
+              "RelativeDocumentMoniker": "calculator project\\Currency.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Currency.cs [Design]",
+              "RelativeToolTip": "calculator project\\Currency.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:14:23.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CurrencyConverter.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\CurrencyConverter.cs",
+              "RelativeDocumentMoniker": "calculator project\\CurrencyConverter.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\CurrencyConverter.cs",
+              "RelativeToolTip": "calculator project\\CurrencyConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T21:24:31.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "setting.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\setting.cs",
+              "RelativeDocumentMoniker": "calculator project\\setting.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\setting.cs",
+              "RelativeToolTip": "calculator project\\setting.cs",
+              "ViewState": "AQIAAPkAAAAAAAAAAAAAAPoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:15:24.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "theme1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\theme1.cs",
+              "RelativeDocumentMoniker": "calculator project\\theme1.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\theme1.cs [Design]",
+              "RelativeToolTip": "calculator project\\theme1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T16:34:15.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "programmer.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\programmer.cs",
+              "RelativeDocumentMoniker": "calculator project\\programmer.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\programmer.cs",
+              "RelativeToolTip": "calculator project\\programmer.cs",
+              "ViewState": "AQIAAMYDAAAAAAAAAADwv9sDAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:14:03.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Speed.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Speed.cs",
+              "RelativeDocumentMoniker": "calculator project\\Speed.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Speed.cs [Design]",
+              "RelativeToolTip": "calculator project\\Speed.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:15:02.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Temperature.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Temperature.cs",
+              "RelativeDocumentMoniker": "calculator project\\Temperature.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Temperature.cs",
+              "RelativeToolTip": "calculator project\\Temperature.cs",
+              "ViewState": "AQIAAPYBAAAAAAAAAAAswBACAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:15:07.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "WinTheme.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\WinTheme.cs",
+              "RelativeDocumentMoniker": "calculator project\\WinTheme.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\WinTheme.cs",
+              "RelativeToolTip": "calculator project\\WinTheme.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T16:45:41.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "theme1.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\theme1.cs",
+              "RelativeDocumentMoniker": "calculator project\\theme1.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\theme1.cs",
+              "RelativeToolTip": "calculator project\\theme1.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAAAHEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T16:34:39.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Timer.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Timer.cs",
+              "RelativeDocumentMoniker": "calculator project\\Timer.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Timer.cs",
+              "RelativeToolTip": "calculator project\\Timer.cs",
+              "ViewState": "AQIAAA8EAAAAAAAAAAAAACAEAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:15:10.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "setting.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\setting.cs",
+              "RelativeDocumentMoniker": "calculator project\\setting.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\setting.cs [Design]",
+              "RelativeToolTip": "calculator project\\setting.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:15:23.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Timer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Timer.cs",
+              "RelativeDocumentMoniker": "calculator project\\Timer.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Timer.cs [Design]",
+              "RelativeToolTip": "calculator project\\Timer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:15:09.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Temperature.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Temperature.cs",
+              "RelativeDocumentMoniker": "calculator project\\Temperature.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Temperature.cs [Design]",
+              "RelativeToolTip": "calculator project\\Temperature.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:15:06.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Weight.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Weight.cs",
+              "RelativeDocumentMoniker": "calculator project\\Weight.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Weight.cs [Design]",
+              "RelativeToolTip": "calculator project\\Weight.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:14:55.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Volume.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Volume.cs",
+              "RelativeDocumentMoniker": "calculator project\\Volume.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Volume.cs",
+              "RelativeToolTip": "calculator project\\Volume.cs",
+              "ViewState": "AQIAAKUBAAAAAAAAAAAAALQBAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:14:51.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Volume.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Volume.cs",
+              "RelativeDocumentMoniker": "calculator project\\Volume.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Volume.cs [Design]",
+              "RelativeToolTip": "calculator project\\Volume.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:14:37.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Weight.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Weight.cs",
+              "RelativeDocumentMoniker": "calculator project\\Weight.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Weight.cs",
+              "RelativeToolTip": "calculator project\\Weight.cs",
+              "ViewState": "AQIAAF0FAAAAAAAAAAAAAHYFAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:14:56.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Length.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Length.cs",
+              "RelativeDocumentMoniker": "calculator project\\Length.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Length.cs",
+              "RelativeToolTip": "calculator project\\Length.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAlwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:14:16.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Length.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Length.cs",
+              "RelativeDocumentMoniker": "calculator project\\Length.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\Length.cs [Design]",
+              "RelativeToolTip": "calculator project\\Length.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:14:14.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "programmer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\programmer.cs",
+              "RelativeDocumentMoniker": "calculator project\\programmer.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\calculator project\\calculator project\\programmer.cs [Design]",
+              "RelativeToolTip": "calculator project\\programmer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:14:01.884Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 11,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
